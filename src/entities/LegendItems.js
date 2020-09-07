@@ -18,13 +18,13 @@ var legendItems = [
   ),
 
   new LegendItem(
-    "100,000 - 499,999",
+    "200,000 - 499,999",
     "#c57f7f",
     (cases) => cases >= 200_000 && cases < 500_000
   ),
 
   new LegendItem(
-    "50,000 - 99,999",
+    "50,000 - 199,999",
     "#d8aaaa",
     (cases) => cases >= 50_000 && cases < 200_000
   ),
@@ -52,10 +52,9 @@ export default legendItems;
 
 /*
 
-#8b0000 // Really red
-#9e2a2a // more red
-#b15555 // red
-#c57f7f //more more pink
+#741f1f // Really red
+#9c2929 // more red
+#c57f7f // red
 #d8aaaa //more pink
 #ebd4d4 //pink
 #ffffff //white
