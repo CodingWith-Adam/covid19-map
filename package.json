@@ -2,7 +2,7 @@
   "name": "covid19-map",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://CodingWith-Adam.github.io/covid19-map.git",
+  "homepage": "https://CodingWith-Adam.github.io/covid19-map",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",

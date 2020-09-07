@@ -1,6 +1,7 @@
 import papa from "papaparse";
 import legendItems from "../entities/LegendItems";
 import { features } from "../data/countries.json";
+//    this.setState(features);
 
 class LoadCountryTask {
   covidUrl =
@@ -50,8 +51,8 @@ class LoadCountryTask {
     if (legendItem != null) country.properties.color = legendItem.color;
   };
 
-  #formatNumberWithCommas = (x) => {
-    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+  #formatNumberWithCommas = (number) => {
+    return number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
   };
 }
 
