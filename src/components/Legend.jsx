@@ -19,7 +19,7 @@ const Legend = ({ legendItems }) => {
             justifyContent: "center", // horiztontal
             color: item.textColor != null ? item.textColor : "black",
             fontWeight: "bolder",
-            fontSize: "1.5em",
+            fontSize: "1em",
             height: "10vh",
           }}
         >
