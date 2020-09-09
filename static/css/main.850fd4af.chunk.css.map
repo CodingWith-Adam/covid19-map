@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.css","CovidMap.css"],"names":[],"mappings":"AAAA,UAEE,QAAS,CACT,SACF,CCJA,mBAGE,wBACF","file":"main.850fd4af.chunk.css","sourcesContent":["body,\nhtml {\n  margin: 0;\n  padding: 0;\n}\n",".leaflet-container {\n  /* background-color: white; */\n  /* background-color: rgb(178, 210, 222); */\n  background-color: rgb(163, 206, 255);\n}\n"]}
